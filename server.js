@@ -5,7 +5,7 @@ const PORT = 8000;
 
 const data = require('./data');
 
-cors();
+app.use(cors());
 
 app.use(express.static('public'));
 
